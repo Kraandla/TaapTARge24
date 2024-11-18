@@ -1,1 +1,1 @@
-[Veebileht](kraandla.github.io/TaapTARge24)
+[Veebileht](https://kraandla.github.io/TaapTARge24)
