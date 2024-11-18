@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* logo */
+.logoNav {
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 45px;
+    height: 85px;
+    align-items: center;
+}
+
+.logoNav:hover{
+    color: #fff;
+    transition: all 0.3 ease;
+}
+
+.nimi{
+font-size: 2.5rem;
+/* text-shadow: 1px 1px 1px black; */
+-webkit-text-stroke: 0.75px black;
+margin: auto 0;
+color: #3871c1ff;
+text-decoration: none;
+}
+.nimi:hover{
+    color: rgb(182, 212, 251);
+    transition: all 1 ease;
+    text-shadow: none;
+}
+
+.navbarContainer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100px;
+    padding-right: 25%;
+}
+
+/* navbar stylization */
+.navbar{
+    background-color: #44fc87;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* border-bottom: 3px solid #3871c1ff; */
+}
+
+.navbarMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbarItemSeperator{
+    color: #3871c1ff;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px black;
+    -webkit-text-stroke: 0.5px black;
+    cursor: pointer;
+}
+
+.navbarLinks{
+    padding: 0 4px;
+    color: #3871c1ff;
+    text-decoration: none;
+    /* text-shadow: 1px 1px 1px black; */
+    -webkit-text-stroke: 0.75px black;
+    height: 46px;
+}
+
+.navbarLinks:hover{
+    /* rgb(138, 183, 245) */
+    color: rgb(182, 212, 251);
+    transition: all 0.3 ease;
+    text-shadow: none;
+}
+
+.navbarDropdownLinks{
+margin: 0 10px;
+display: none;
+max-width:max-content;
+position: absolute;
+z-index: 1000;
+background: #44fc87;
+border-right: 2px solid #3871c1ff;
+border-bottom:2px solid #3871c1ff;
+border-left: 2px solid #3871c1ff;
+}
+.navbarDropdown:hover .navbarDropdownLinks{
+    display: grid;
+}
+.navbarDropdownLink{
+    color: #3871c1ff;
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    /* text-shadow: 0.5px 0.5px 0px black; */
+    -webkit-text-stroke: 0.25px black;
+    z-index: 1000;
+    /* position: absolute; */
+}
+
+.navbarDropdownLink:hover{
+    background-color: hsl(142, 97%, 75%);
+    transition: all 0.5s ease;
+    text-shadow: none;
+}
+
+/* main */
+.main {
+display:contents;
+width: 100%;
+height: 100%;
+}
+.mainContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.columnLeft{
+    flex-basis: 10%;
+    height: auto;
+    background: hsl(142, 97%, 83%);
+}
+
+.mainContent{
+flex-basis: 80%;
+display: table;
+justify-content: center;
+background: hsl(142, 97%, 83%);
+height: 100%;
+/* border: 2px solid #3871c1ff; */
+border-top: 0;
+}
+
+.columnRight{
+    flex-basis: 10%;
+    height: auto;
+    background: hsl(142, 97%, 83%);
+}
+
+
+#tutvustusPilt{
+    width: 300px;
+    height: 300px;
+    float: left;
+    border: 3px solid #3871c1ff;
+    border-radius: 5px;
+    margin: 10px 0;
+    margin-right: 15px;
+}
+
+h1 {
+    color: #3871c1ff;
+    -webkit-text-stroke: 0.1px black;
+    margin: 10px 0;
+}
+
+p{
+    color: #3871c1ff;
+    font-size: 19px;
+    margin: 10 0;
+    -webkit-text-stroke: 0.1px black;
+}
+
+
+/* footer */
+.footer{
+    background: #44fc87;
+    height: auto;
+    padding: 10%;
+}
+ /* text */
+.textLink{
+color: red;
+}
+.textLink:visited{
+    color: #44fc87;
+}
+
+/* elutsükkel konspekt */
+
+/* casevahendid */
+#firmaLogo{
+    width: 300px;
+    height: 150px;
+    float: left;
+}
