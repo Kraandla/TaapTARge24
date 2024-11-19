@@ -293,3 +293,10 @@ color: hsl(0, 100%, 70%);
     font-size: 19px;
     -webkit-text-stroke: 0.1px black;
 }
+
+.numberedList {
+    list-style: decimal;
+    color: #3871c1ff;
+    font-size: 19px;
+    -webkit-text-stroke: 0.1px black;
+}
