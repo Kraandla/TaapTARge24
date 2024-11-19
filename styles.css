@@ -162,12 +162,29 @@ padding-bottom: 10px;
 }
 
 
-h1 {
+h1{
     color: #3871c1ff;
     -webkit-text-stroke: 0.75px black;
     margin: 10px 0;
     text-align: center;
     text-decoration: none;
+}
+
+h2{
+    color: #3871c1ff;
+    -webkit-text-stroke: 0.55px black;
+    margin: 10px 0;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+h3{
+    color: #3871c1ff;
+    -webkit-text-stroke: 0.35px black;
+    margin: 10px 0;
+    text-align: left;
+    text-decoration: none; 
 }
 
 .headlineLink{
@@ -219,14 +236,25 @@ text-align: center;
 .footer{
     background: #44fc87;
     height: auto;
-    padding: 10%;
+    padding: 15%;
 }
  /* text */
 .textLink{
 color: red;
+text-decoration-thickness: 2px;
 }
+.textLink:hover{
+color: hsl(0, 100%, 70%);
+}
+
 .textLink:visited{
-    color: #44fc87;
+    color: #3871c1ff;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+.textLink:visited:hover{
+    color: hsl(215, 55%, 85%);
 }
 
 /* elutsükkel konspekt */
@@ -236,4 +264,13 @@ color: red;
     width: 300px;
     height: 150px;
     float: left;
+}
+
+.mainContent #illustratiivnePilt{
+    width: 100%;
+    height: 100%;
+}
+
+.noStyleList{
+    list-style: none;
 }

@@ -7,43 +7,80 @@
     <link rel="stylesheet" href="../../../styles.css">
 </head>
 <body>
-    <h1>LOWERCASE TÖÖVAHENDID</h1>
-    <p>Lowercase tööriistad üldisemalt öeldud on keskendunud tarkvara elutsükkli 
-        hilisematele etappidele, eriti üksikasjalikele projekteerimis-, kodeerimis-, 
-        testimis- ja hooldusfaasidele. Nad aitavad koodi genereerida, lähtekoodi hallata 
-        ja testimisprotsesse automatiseerida.</p>
-    <p>Peamiselt kasutatakse lowerCASE töövahendeid järgmisteks asjadeks:</p>
-    <ul>
-        <li><h2>Koodi genereerimine:</h2></li>
-        <p>Töövahendid, mis genereerivad automaatselt koodi disaini spetsifikatsioonide 
-            või mudelite põhjal, vähendades käsitsi kodeerimise pingutusi.</p>
-        <li><h2>Lähtekoodi haldamine:</h2></li>
-        <p>Versioonikontrollimiseks, muudatuste jälgimiseks ja mitme arendaja 
-            koostöö arendamise toe jaoks. Silumine ja testimine: tööriistad, mis aitavad 
-            koodi silumist, üksuste testimist ja koodi kvaliteedi analüüsi.</p>
-    </ul>
-    <p>Näited lowerCASE töövahenditest oleks Microsoft Visual Studio(terver konspekt on 
-        selle peal ehitatud), JetBrains IntelliJ IDEA ja Git.</p>
-    <p><a href="https://www.rankred.com/best-programming-software-for-writing-codes/" 
-        class="textLink">Siin</a> 
-        on paar näidet vahenditest, mida ma ei ole kasutanud:</p>
-    <ul>
-        <li><img src="pildid/eclipse-foundation-grey-orange.svg" id="firmaLogo">
-            <h2><a href="https://www.eclipse.org/" class="textLink">Eclipse:</a></h2></li>
-        <p>Eclipse on IDE, mis toetab keskkonna kohandamiseks laiendatavat pistikprogrammi. 
-            Kuigi seda kasutatakse peamiselt Java-rakenduste arendamiseks, saab sellega 
-            kirjutada rakendusi ka teistes programmeerimiskeeltes (pistikprogrammide kaudu).</p>
-        <img src="pildid/Eclipse-1.webp">
-        <li><img src="pildid/geany.svg" id="firmaLogo">
-            <h2><a href="https://www.geany.org/" class="textLink">Geany:</a></h2></li>
-                <p>Geany on avatud lähtekoodiga kerge tekstiredaktor, mis on spetsiaalselt 
-                    loodud lühikeste laadimisaegade ja piiratud sõltuvuste jaoks välistest 
-                    teegidest või eraldi pakettidest.See toetab paljusid programmeerimis- ja 
-                    märgistuskeeli, sealhulgas C, C#, C++, PHP, HTML, CSS, JavaScript, 
-                    Python, Perl, Haskell ja Pascal. Toetatud on ka levinud failitüübid, 
-                    nagu Diff-väljund, SQL ja ini-stiilis konfiguratsioonifailid.</p>
-            <img src="pildid/Geany.webp" alt="">
-    </ul>
+    <nav class="navbar">
+        <div class="navbarContainer">
+                <!-- <a href="/"><img style="float: left;" src="images/teardrop 100x59.svg" alt="" class="logoNav"></a> -->
+                <a href="../../../index.html" class="nimi">Kevin Randla</a>
+        </div>
+
+        <ul class="navbarMenu">
+            <li class="navbarItem">
+                <a href="../../../index.html" class="navbarLinks">Minust</a>
+            </li>
+                <p class="navbarItemSeperator">|</p>
+                <div class="navbarItem">
+                    <div class="navbarDropdown">
+                        <a href="../TAindex.html" class="navbarLinks">Konspekt</a>
+                        <div class="navbarDropdownLinks">
+                            <a href="main.html" class="navbarDropdownLink">Casevahendid</a>
+                            <a href="uppercase.html" class="navbarDropdownLink">UpperCASE</a>
+                            <a href="lowercase.html" class="navbarDropdownLink">LowerCASE</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="navbarItemSeperator">|</p>
+            <li class="navbarItem">
+                <a href="../../../tööd/tööd.html" class="navbarLinks">Tööd</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="mainContainer">
+            <div class="columnLeft"></div>
+            <div class="mainContent">
+                <a href="../TAindex.html" class="headlineLink"><h1>LOWERCASE TÖÖVAHENDID</h1></a>
+                <p>Lowercase tööriistad üldisemalt öeldud on keskendunud tarkvara elutsükkli 
+                    hilisematele etappidele, eriti üksikasjalikele projekteerimis-, kodeerimis-, 
+                    testimis- ja hooldusfaasidele. Nad aitavad koodi genereerida, lähtekoodi hallata 
+                    ja testimisprotsesse automatiseerida.</p>
+                <p>Peamiselt kasutatakse lowerCASE töövahendeid järgmisteks asjadeks:</p>
+                <ul class="noStyleList">
+                    <li><h2>Koodi genereerimine:</h2></li>
+                    <p>Töövahendid, mis genereerivad automaatselt koodi disaini spetsifikatsioonide 
+                        või mudelite põhjal, vähendades käsitsi kodeerimise pingutusi.</p>
+                    <li><h2>Lähtekoodi haldamine:</h2></li>
+                    <p>Versioonikontrollimiseks, muudatuste jälgimiseks ja mitme arendaja 
+                        koostöö arendamise toe jaoks. Silumine ja testimine: tööriistad, mis aitavad 
+                        koodi silumist, üksuste testimist ja koodi kvaliteedi analüüsi.</p>
+                </ul>
+                <p>Näited lowerCASE töövahenditest oleks Microsoft Visual Studio(terver konspekt on 
+                    selle peal ehitatud), JetBrains IntelliJ IDEA ja Git.</p>
+                <p><a href="https://www.rankred.com/best-programming-software-for-writing-codes/" 
+                    class="textLink">Siin</a> 
+                    on paar näidet vahenditest, mida ma ei ole kasutanud:</p>
+                <ul class="noStyleList">
+                    <li><img src="pildid/eclipse-foundation-grey-orange.svg" id="firmaLogo">
+                        <h2><a href="https://www.eclipse.org/" class="textLink">Eclipse:</a></h2></li>
+                    <p>Eclipse on IDE, mis toetab keskkonna kohandamiseks laiendatavat pistikprogrammi. 
+                        Kuigi seda kasutatakse peamiselt Java-rakenduste arendamiseks, saab sellega 
+                        kirjutada rakendusi ka teistes programmeerimiskeeltes (pistikprogrammide kaudu).</p>
+                    <img src="pildid/Eclipse-1.webp" id="illustratiivnePilt">
+                    <li><img src="pildid/geany.svg" id="firmaLogo">
+                        <h2><a href="https://www.geany.org/" class="textLink">Geany:</a></h2></li>
+                            <p>Geany on avatud lähtekoodiga kerge tekstiredaktor, mis on spetsiaalselt 
+                                loodud lühikeste laadimisaegade ja piiratud sõltuvuste jaoks välistest 
+                                teegidest või eraldi pakettidest.See toetab paljusid programmeerimis- ja 
+                                märgistuskeeli, sealhulgas C, C#, C++, PHP, HTML, CSS, JavaScript, 
+                                Python, Perl, Haskell ja Pascal. Toetatud on ka levinud failitüübid, 
+                                nagu Diff-väljund, SQL ja ini-stiilis konfiguratsioonifailid.</p>
+                        <img src="pildid/Geany.webp" id="illustratiivnePilt">
+                </ul>
+            </div>
+            <div class="columnRight"></div>
+        </div>
+    </div>
+    <footer class="footer"></footer>
 </body>
 </html>
 <!-- Mis on lowercase vahendid yes -->
