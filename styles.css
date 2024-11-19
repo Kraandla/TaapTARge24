@@ -267,8 +267,9 @@ color: hsl(0, 100%, 70%);
 }
 
 .mainContent #illustratiivnePilt{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin: 10px 0;
 }
 
 .noStyleList{
