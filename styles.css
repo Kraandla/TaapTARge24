@@ -199,6 +199,7 @@ p{
     font-size: 19px;
     margin: 10 0;
     -webkit-text-stroke: 0.1px black;
+    cursor: default;
 }
 
 .tutvustusH1{
