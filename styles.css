@@ -64,7 +64,7 @@ text-decoration: none;
 .navbarItemSeperator{
     color: #3871c1ff;
     font-size: 3.5rem;
-    text-shadow: 1px 1px 1px black;
+    /* text-shadow: 1px 1px 1px black; */
     -webkit-text-stroke: 0.5px black;
     cursor: pointer;
 }
