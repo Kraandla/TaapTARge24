@@ -112,7 +112,7 @@ border-left: 2px solid #3871c1ff;
 
 .navbarDropdownLink:hover{
     background-color: hsl(142, 97%, 75%);
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
     text-shadow: none;
 }
 
@@ -254,7 +254,7 @@ color: hsl(0, 100%, 70%);
 }
 
 .textLink:visited:hover{
-    color: hsl(215, 55%, 85%);
+    color: hsl(215, 55%, 75%);
 }
 
 /* elutsükkel konspekt */
@@ -274,4 +274,21 @@ color: hsl(0, 100%, 70%);
 
 .noStyleList{
     list-style: none;
+}
+.listOffset{
+    margin-left: 20px;
+    list-style: disc;
+    color: #3871c1ff;
+    -webkit-text-stroke: 0.1px black;
+}
+.noStyleListOffset{
+    margin-left: 20px;
+}
+
+.numberedListAndOffset{
+    margin-left: 20px;
+    list-style: decimal;
+    color: #3871c1ff;
+    font-size: 19px;
+    -webkit-text-stroke: 0.1px black;
 }
