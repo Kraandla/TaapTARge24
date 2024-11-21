@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* logo */
@@ -176,7 +177,6 @@ h2{
     margin: 10px 0;
     text-align: left;
     text-decoration: none;
-
 }
 
 h3{
@@ -196,10 +196,10 @@ h3{
 
 p{
     color: #3871c1ff;
-    font-size: 19px;
+    font-size: 18px;
     margin: 10 0;
-    -webkit-text-stroke: 0.1px black;
     cursor: default;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tutvustusH1{
@@ -207,6 +207,7 @@ p{
     -webkit-text-stroke: 0.75px black;
     margin: 10px 0;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mainButtonTable{
