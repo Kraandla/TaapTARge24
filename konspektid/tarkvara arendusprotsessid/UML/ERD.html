@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERD</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbarContainer">
+                <!-- <a href="/"><img style="float: left;" src="images/teardrop 100x59.svg" alt="" class="logoNav"></a> -->
+                <a href="../../index.html" class="nimi">Kevin Randla</a>
+        </div>
+
+        <ul class="navbarMenu">
+            <li class="navbarItem">
+                <a href="../../index.html" class="navbarLinks">Minust</a>
+            </li>
+                <p class="navbarItemSeperator">|</p>
+                <div class="navbarItem">
+                    <div class="navbarDropdown">
+                        <a href="../konspektid.html" class="navbarLinks">Konspektid</a>
+                        <div class="navbarDropdownLinks">
+                            <a href="TAindex.html" class="navbarDropdownLink">Tarkvara Arendusprotsess</a>
+                            <a href="casevahendid/main.html" class="navbarDropdownLink">Casevahendid</a>
+                            <a href="TAindex.html" class="navbarDropdownLink">Elutsükkel</a>
+                        
+                        </div>
+                    </div>
+                </div>
+                <p class="navbarItemSeperator">|</p>
+            <li class="navbarItem">
+                <a href="../../tööd/tööd.html" class="navbarLinks">Tööd</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- main content -->
+    <div class="main">
+        <div class="mainContainer">
+            <div class="columnLeft"></div>
+            <div class="mainContent">
+                <a href="uml.html" class="headlineLink"><h1>ENTITY RELATIONSHIP DIAGRAM</h1></a>
+                    <p>Entity Relationship (ER) diagramm on teatud tüüpi vooskeemi tüüp, 
+                        mis illustreerib, kuidas "olemid" (nt inimesed, objektid või mõisted) on 
+                        süsteemis üksteisega seotud. ER diagramme kasutatakse kõige sagedamini 
+                        relatsiooniandmebaaside kujundamiseks või silumiseks tarkvaratehnika, 
+                        äriinfosüsteemide, hariduse ja teadustöö valdkondades. 
+                        Tuntud ka kui ERD-d või ER-mudelid, kasutavad nad määratletud sümbolite komplekti, 
+                        nagu ristkülikud, rombid, ovaalid ja ühendusjooned, 
+                        et kujutada olemite, suhete ja nende atribuutide omavahelist seotust. 
+                        Need peegeldavad grammatilist struktuuri, kusjuures üksused on nimisõnad ja suhted 
+                        kui tegusõnad.</p>
+                        <br>
+                        <h2>ERD kasutusala:</h2>
+                            <ul class="listOffset">
+                                <li>Andmebaasi disain: ER-diagramme kasutatakse 
+                                    relatsiooniliste andmebaaside modelleerimiseks ja kujundamiseks, 
+                                    võttes arvesse loogika- ja ärireegleid (loogilises andmemudelis) 
+                                    ning konkreetset rakendatavat tehnoloogiat (füüsilises andmemudelis). 
+                                    Tarkvaratehnikas ER diagramm on sageli esimene samm infosüsteemide 
+                                    projekti nõuete kindlaksmääramisel. Seda kasutatakse hiljem ka 
+                                    konkreetse andmebaasi või andmebaaside modelleerimiseks. 
+                                    Relatsiooniandmebaasis on samaväärne relatsioonitabel ja seda saab 
+                                    vajaduse korral sel viisil väljendada.</li>
+                                <li>Andmebaasi tõrkeotsing: ER diagramme kasutatakse olemasolevate andmebaaside analüüsimiseks, et leida ja lahendada loogika või juurutamise probleeme. Diagrammi joonistamine peaks näitama, kus see valesti läheb.</li>
+                                <li>Äriinfosüsteemid: diagramme kasutatakse äriprotsessides kasutatavate relatsiooniandmebaaside kujundamiseks või analüüsimiseks. Relatsiooniandmebaasist võib kasu saada mis tahes äriprotsess, mis kasutab väljastatud andmeid, mis hõlmavad üksusi, toiminguid ja koosmõju. See võib protsesse sujuvamaks muuta, teavet hõlpsamini leida ja tulemusi parandada.</li>
+                                <li>Äriprotsesside ümberprojekteerimine (BPR): ER-diagrammid aitavad analüüsida äriprotsesside ümberkorraldamisel kasutatavaid andmebaase ja modelleerida uut andmebaasi seadistust.</li>
+                                <li>Haridus: Andmebaasid on tänapäeval relatsiooniteabe salvestamise meetod hariduslikel eesmärkidel ja hilisemaks hankimiseks, nii et ER-diagrammid võivad olla väärtuslikud nende andmestruktuuride kavandamisel.</li>
+                                <li>Uuringud: kuna paljud uuringud keskenduvad struktureeritud andmetele, võivad ER-diagrammid mängida olulist rolli andmete analüüsimiseks kasulike andmebaaside loomisel.</li>
+                            </ul>
+                        <h2>ERD ühenduselemendid on järgnevad:</h2>
+                            <ul class="listOffset">
+                                <li>Üksus: Määratletav asi – näiteks inimene, objekt, mõiste või sündmus –, mille kohta võib andmeid salvestada. Mõelge olemitele kui nimisõnadele. Näited: klient, õpilane, auto või toode. Tavaliselt kuvatakse ristkülikuna.</li>
+                                <li>Suhe:uidas üksused üksteisega käituvad või on üksteisega seotud. Mõelge suhetele kui tegusõnadele. Näiteks võib nimetatud üliõpilane registreeruda kursusele. Need kaks olemit oleksid üliõpilane ja kursus ning kujutatud suhe on registreerumine, mis ühendab kaks olemit sel viisil. Seosed kuvatakse tavaliselt teemantide või siltidena otse ühendusjoontel.</li>
+                                <li>Atribuut:Olemi omadus või omadus. Sageli kujutatakse ovaali või ringina.</li>
+                                <li>Kardinaalsus: Määratleb kahe olemi või olemikogumi vahelise seose numbrilised atribuudid. Kolm peamist kardinaalset suhet on üks-ühele, üks-mitmele ja palju-palju. Üks-ühele näide oleks üks õpilane, mis on seotud ühe postiaadressiga. Üks-mitmele näide (või mitu-ühele, olenevalt suhte suunast): üks õpilane registreerub mitmele kursusele, kuid kõigil neil kursustel on selle ühe õpilase juurde üks rida. Mitu-mitmele näide: õpilased kui rühm on seotud mitme õppejõuga ja õppejõud omakorda mitme üliõpilasega.</li>
+                                <li>Võtmed:
+                                    <p>Võtmed on üks viis atribuutide kategoriseerimiseks. ER diagrammid aitavad kasutajatel oma andmebaase modelleerida, kasutades erinevaid tabeleid, mis tagavad andmebaasi korrastatuse, tõhususe ja kiire. Võtmeid kasutatakse erinevate andmebaasi tabelite omavaheliseks linkimiseks võimalikult tõhusal viisil. ning neid jagatakse järgnevateks:</p>
+                                    <ul class="listOffset">
+                                        <li><b>Peamised võtmed</b> on atribuut või atribuutide kombinatsioon, mis identifitseerib unikaalselt ühe ja ainult ühe olemi eksemplari.</li>
+                                        <li><b>Võõrvõtmed</b> luuakse igal ajal, kui atribuut on seotud mõne teise olemiga üks-ühele või üks-mitmele suhtes.</li>
+                                        <li><b>Komposiitvõtmed</b> koosnevad kahest või enamast atribuudist, mis koos moodustavad unikaalse identifikaatori. Seda kasutatakse, kui üksik atribuut ei ole piisav rea tuvastamiseks. Näiteks kursuse ID ja õpilase ID paarina. </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/seo/ERD/discovery/erd-example.svg" alt="">
+                <p>Viide <a href="https://www.lucidchart.com/pages/er-diagrams" target="_blank">1</a><a href="https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning">2</a></p>
+            </div>
+            <div class="columnRight"></div>
+        </div>
+    </div>
+    <footer class="footer"></footer>
+</body>
+</html>
