@@ -246,6 +246,7 @@ text-align: center;
 color: red;
 text-decoration-thickness: 2px;
 }
+
 .textLink:hover{
 color: hsl(0, 100%, 70%);
 }
@@ -260,6 +261,25 @@ color: hsl(0, 100%, 70%);
     color: hsl(215, 55%, 75%);
 }
 
+.textLinkCenter{
+color: red;
+text-decoration-thickness: 2px;
+text-align: center;
+}
+
+.textLinkCenter:hover{
+    color: hsl(0, 100%, 70%);
+    }
+    
+    .textLinkCenter:visited{
+        color: #3871c1ff;
+        text-decoration-color: red;
+        text-decoration-thickness: 2px;
+    }
+    
+    .textLinkCenter:visited:hover{
+        color: hsl(215, 55%, 75%);
+    }
 /* elutsükkel konspekt */
 
 /* casevahendid */
